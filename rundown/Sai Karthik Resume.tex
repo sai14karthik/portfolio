@@ -1,0 +1,483 @@
+
+
+\documentclass[a4paper,11pt]{article}
+
+% Package imports
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome5}
+
+% Color definitions
+\definecolor{darkblue}{RGB}{0,0,139}
+
+% Page layout
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+\setlength{\footskip}{5pt} % Addressing fancyhdr warning
+
+% Hyperlink setup (moved after fancyhdr to address warning)
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    filecolor=darkblue,
+    urlcolor=darkblue,
+}
+
+% Custom box settings
+\usepackage[most]{tcolorbox}
+\tcbset{
+    frame code={},
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!20,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=-2mm,
+    boxsep=4pt,
+    arc=0pt,outer arc=0pt,
+}
+
+% URL style
+\urlstyle{same}
+
+% Text alignment
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand{\labelitemii}{$\vcenter{\hbox{\tiny$\circ$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=0.5mm]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-4mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+
+% Commands for icon sizing and positioning
+\newcommand{\socialicon}[1]{\raisebox{-0.05em}{\resizebox{!}{1em}{#1}}}
+\newcommand{\ieeeicon}[1]{\raisebox{-0.3em}{\resizebox{!}{1.3em}{#1}}}
+
+% Font options
+\newcommand{\headerfonti}{\fontfamily{phv}\selectfont} % Helvetica-like (similar to Arial/Calibri)
+\newcommand{\headerfontii}{\fontfamily{ptm}\selectfont} % Times-like (similar to Times New Roman)
+\newcommand{\headerfontiii}{\fontfamily{ppl}\selectfont} % Palatino (elegant serif)
+\newcommand{\headerfontiv}{\fontfamily{pbk}\selectfont} % Bookman (readable serif)
+\newcommand{\headerfontv}{\fontfamily{pag}\selectfont} % Avant Garde-like (similar to Trebuchet MS)
+\newcommand{\headerfontvi}{\fontfamily{cmss}\selectfont} % Computer Modern Sans Serif
+\newcommand{\headerfontvii}{\fontfamily{qhv}\selectfont} % Quasi-Helvetica (another Arial/Calibri alternative)
+\newcommand{\headerfontviii}{\fontfamily{qpl}\selectfont} % Quasi-Palatino (another elegant serif option)
+\newcommand{\headerfontix}{\fontfamily{qtm}\selectfont} % Quasi-Times (another Times New Roman alternative)
+\newcommand{\headerfontx}{\fontfamily{bch}\selectfont} % Charter (clean serif font)
+
+\begin{document}
+\headerfontiii
+
+% Header
+\begin{center}
+    {\Huge\textbf{Sai Karthik Nallamothu}}
+\end{center}
+\vspace{-5mm}
+
+\begin{center}
+    \small{
+     {\faPhone}+91 8688077692 | {\faEnvelope} \href{mailto:sai14karthik@gmail.com}{sai14karthik@gmail.com} | 
+    {\faGlobe} \href{https://sai14karthik.github.io/portfolio/}{Website} | {\faLinkedin} \href{https://www.linkedin.com/in/sai-karthik-n-a6aba234b/}{LinkedIn} | 
+    \socialicon{\faGithub} \href{https://github.com/sai14karthik}{GitHub} | 
+    \faGraduationCap\ \href{https://scholar.google.com/citations?user=MzLOhcoAAAAJ&hl=en}{Google Scholar}
+    }
+\end{center}
+
+\vspace{-6mm}
+
+\section{\textbf{Skills}}
+\vspace{-0.4mm}
+\resumeHeadingSkillStart
+  \resumeSubItem{Programming Languages:}
+    {Python, C++, Java, JavaScript, SQL}
+  \resumeSubItem{Web Technologies:}
+    {HTML5, CSS3, React, Node.js, Express.js}
+  \resumeSubItem{Database Systems:}
+    {MySQL, MongoDB, SQLite}
+  \resumeSubItem{Data Science \& Machine Learning:}
+    {scikit-learn, TensorFlow, Keras, PyTorch, Pandas, NumPy}
+  \resumeSubItem{Cloud Technologies:}
+    {AWS (S3, EC2), Google Cloud Platform, Microsoft Azure}
+  \resumeSubItem{DevOps \& Version Control:}
+    {Git, GitHub, Docker, Jenkins, CI/CD basics}
+  \resumeSubItem{Specialized Area:}
+    {Machine Learning, Deep Learning, Explainable AI, Time Series Analysis}
+  \resumeSubItem{Mathematical \& Statistical Tools:}
+    {MATLAB, R, MATLAB, Excel, Statistical Analysis, Probability}
+  \resumeSubItem{Other Tools \& Technologies:}
+    {Jupyter Notebook, VS Code, Postman, Tableau, Power BI}
+  \resumeSubItem{Research Skills:}
+    {Literature Review, Data Analysis, Experiment Design, Report Writing, Academic Publishing, Presentation Skills}
+\resumeHeadingSkillEnd
+
+
+
+\section{\textbf{Experience}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+  {SRM University-AP [\href{https://srmap.edu.in}{\faIcon{globe}}]}{On Campus}
+  {Research Assistant}{Aug 2023 -- Present}
+  \resumeItemListStart
+    \item Developed a real-time intrusion detection model using Genetic Algorithm for feature selection in cybersecurity.
+    \item Designed an early autism screening model and a saffron adulteration detection prototype using federated learning.
+  \resumeItemListEnd
+
+\resumeSubheading
+  {TULIP Lab[\href{https://www.tulip.academy}{\faIcon{globe}}]}{Virtual}
+  {Research Intern}{Jun 2024 -- Sept 2024}
+  \resumeItemListStart
+    \item Conducted time series anomaly detection using PyOD, DeepANT, STUMPY, and scikit-learn under the guidance of Prof. Gang Li at TULIP Lab, Deakin University.
+    \item Implemented Isolation Forest, Gaussian Mixture Model, and AutoEncoder with comparative evaluation of their performance.
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-6mm}
+
+\section{\textbf{Education}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{SRM University-AP}{Andhra Pradesh, India}
+{B.Tech in Computer Science and Engineering}{Aug 2021 -- Present}
+\resumeItemListStart
+\item Project: Permutation Effects in Multilingual Summarization using Transformers via Ordered Evaluation
+\item GPA: 8.82/10 
+\item Relevant coursework: Machine Learning, Data Structures and Algorithms, Operating Systems, Computer Organization and Architecture , Artificial Intelligence.
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-6mm}
+
+
+\section{\textbf{Projects}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+\resumeProject
+  {Multi-Model Disease Classification and Prediction}
+  {Tools: Python, sklearn, seaborn, matplotlib, Jupyter Notebook}
+  {2024}
+  {{}[\href{https://github.com/your-username/multi-disease-classification}{\textcolor{darkblue}{\faGithub}}]}
+\resumeItemListStart
+  \item Developed ML models to classify Breast Cancer, Diabetes, Heart Disease, Lung Cancer, and Parkinson's Disease.
+  \item Achieved ~96\% accuracy through efficient preprocessing and model tuning techniques.
+\resumeItemListEnd
+
+\resumeProject
+  {ANN Optimization using Genetic Algorithm and Fuzzy Logic}
+  {Tools: Python, sklearn, matplotlib, tensorflow, seaborn, skfuzzy, deap, Jupyter Notebook}
+  {2024}
+  {{}[\href{https://github.com/your-username/ann-ga-fuzzy}{\textcolor{darkblue}{\faGithub}}]}
+\resumeItemListStart
+  \item Designed ANN system with Genetic Algorithm for hyperparameter tuning on MRI-based dementia dataset.
+  \item Utilized VGG16/VGG19 for feature extraction and applied fuzzy logic for robust classification.
+\resumeItemListEnd
+
+\resumeProject
+  {Intrusion Detection using Machine Learning and Deep Learning}
+  {Tools: Python, sklearn, seaborn, matplotlib, Jupyter Notebook}
+  {2024}
+  {{}[\href{https://github.com/your-username/intrusion-detection-ml-dl}{\textcolor{darkblue}{\faGithub}}]}
+\resumeItemListStart
+  \item Analyzed KDD'19 dataset using classifiers like Naive Bayes, Random Forest, and MLP.
+  \item Improved accuracy by implementing feature selection and preprocessing pipelines.
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{\textbf{Patents and Publications} \hfill \textcolor{darkblue}{\scriptsize C=Conference, J=Journal, P=Patent, S=In Submission, T=Thesis}}
+\vspace{0.2mm}
+\small{
+\begin{enumerate}[leftmargin=*, labelsep=0.5em, align=left, widest={[\textbf{S.1}]}, itemindent=0em, label={\textbf{[\arabic*]}}]
+
+\item[\textbf{[C.1]}] \textbf{Application of Machine Learning Algorithms and Feature Selection using Genetic Algorithm: A Case Study on Cyber Attack Detection}. In \textit{Proceedings of the 9th International Conference on Innovations in Information and Communication Technology (I2CT)}, 2024.
+
+\item[\textbf{[C.2]}] \textbf{Comparative Analysis of Feature Representations for Topic Modeling with Latent Dirichlet Allocation}. In \textit{Proceedings of the 15th International Conference on Computing, Communication and Networking Technologies (ICCCNT)}, IIT Mandi, 2024.
+
+\item[\textbf{[C.3]}] \textbf{Early Childhood Autism Screening Through Facial Feature Extraction}. In \textit{Proceedings of the 8th International Conference on Parallel, Distributed and Grid Computing (PDGC)}, 2024.
+
+\item[\textbf{[C.4]}] \textbf{Assessment of Data Augmentation Paradigms in Pathology Identification}. In\textit{Proceedings of the 22nd International Conference on Information Technology (OCIT)} 2024.
+
+\item[\textbf{[P.1]}] \textbf{A System for Autism Spectrum Disorder Detection}. Patent Office of India, Patent ID: 20244105350. Publication Date: 2024.
+
+\item[\textbf{[P.2]}] \textbf{A System and Method for Detecting Adulteration in Saffron using Federated Learning}. Patent Office of India, Patent ID: 202441074334. Publication Date: 2024.
+
+
+\end{enumerate}
+}
+
+\section{\textbf{Certifications}}
+\vspace{-0.2mm}
+\resumeSubHeadingListStart
+
+\resumePOR{}{\textbf{Database Management System – IIT Kharagpur (NPTEL)}}{Sep 2023}
+\resumePOR{}{\textbf{Data Analytics Essentials – Cisco Networking Academy}}{Jul 2023}
+
+\resumeSubHeadingListEnd
+
+
+\vspace{-6mm}
+
+
+\section{\textbf{Leadership and Achievements}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+
+
+\resumeProject
+  {Gold Medal – 9th Research Day}
+  {SRM University – AP}
+  {March 2024}
+ 
+\resumeItemListStart
+  \item Awarded for outstanding undergraduate research in Multilingual based Hybrid summarization.
+  \item Recognized for technical innovation and practical impact in academic research.
+\resumeItemListEnd
+
+\resumeProject
+  {Travel Grant \& Patent Grant Recipient}
+  {SRM University – AP}
+  {May 2024}
+ 
+\resumeItemListStart
+  \item Secured institutional funding to present research at a national conference and file a patent.
+  \item Encouraged for academic excellence, innovation, and research dissemination.
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\begin{comment}
+\vspace{-6mm}
+\section{\textbf{Leadership Experience}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\resumeProject
+  {Leadership Role A}
+  {Organization/Institution Name}
+  {Month Year - Month Year}
+  {{}[\href{https://organization-a-link.com}{\textcolor{darkblue}{\faIcon{globe}}}]}
+\resumeItemListStart
+  \item Key responsibility or achievement in this role
+  \item Quantifiable impact or improvement made during tenure
+  \item Initiative taken or project led
+\resumeItemListEnd
+
+\resumeProject
+  {Leadership Role B}
+  {Organization/Institution Name}
+  {Month Year - Month Year}
+  {{}[\href{https://organization-b-link.com}{\textcolor{darkblue}{\faIcon{globe}}}]}
+\resumeItemListStart
+  \item Key responsibility or achievement in this role
+  \item Quantifiable impact or improvement made during tenure
+  \item Initiative taken or project led
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-6mm}
+
+\section{\textbf{Volunteer Experience}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\resumeProject
+  {Volunteer Role A}
+  {Organization Name}
+  {Month Year - Month Year}
+  {{}[\href{https://volunteer-org-a-link.com}{\textcolor{darkblue}{\faIcon{globe}}}]}
+\resumeItemListStart
+  \item Key responsibility or contribution in this role
+  \item Impact of your volunteer work
+  \item Skills developed or applied during this experience
+\resumeItemListEnd
+
+\resumeProject
+  {Volunteer Role B}
+  {Organization Name}
+  {Month Year - Present}
+  {{}[\href{https://volunteer-org-b-link.com}{\textcolor{darkblue}{\faIcon{globe}}}]}
+\resumeItemListStart
+  \item Key responsibility or contribution in this role
+  \item Impact of your volunteer work
+  \item Skills developed or applied during this experience
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-6mm}
+
+\section{\textbf{Professional Memberships}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\resumePOR{Professional Organization A}
+    {, Membership ID: XXXXXXXX}
+    {Month Year - Present}
+\resumePOR{Professional Organization B}
+    {, \href{https://membership-certificate-link.com}{Membership ID: XXXXXXXX}}
+    {Month Year - Present}
+\resumePOR{Professional Organization C}
+    {, \href{https://membership-certificate-link.com}{Membership ID: XXXXXXXX}}
+    {Month Year - Present}
+    
+\resumeSubHeadingListEnd
+\vspace{-6mm}
+
+
+\section{\textbf{Certifications}}
+\vspace{-0.2mm}
+\resumeSubHeadingListStart
+\resumePOR{}{\href{https://certification-link-a.com}{
+\textbf{Certification A}
+}}{Month Year}
+\resumePOR{}{
+\textbf{Certifying Body:} {{\href{https://certification-link-b.com}{Certification B}}}}{Month Year}
+\resumePOR{}{
+\textbf{Certifying Body:} {{\href{https://certification-link-c.com}{Certification C}}}}{Month Year}
+\resumePOR{}{\href{https://certification-link-d.com}{
+\textbf{Certification D}
+}}{Month Year}
+
+\resumeSubHeadingListEnd
+\vspace{-6mm}
+
+\section{\textbf{Additional Information}}
+\vspace{-0.4mm}
+\small{
+\textbf{Languages:} Language A (Proficiency level), Language B (Proficiency level), Language C (Proficiency level)
+
+\textbf{Interests:} Interest 1, Interest 2, Interest 3, Interest 4
+}
+\vspace{-4mm}
+
+\end{comment}
+\vspace{-4mm}
+\section{\textbf{Coding Platforms}}
+\vspace{-0.2mm}
+\small{
+\begin{itemize}[leftmargin=*,labelsep=2mm]
+  \item \textbf{CodeChef:} \href{https://www.codechef.com/users/sai14karthik}{\textcolor{darkblue}{sai14karthik}}
+  \item \textbf{LeetCode:} \href{https://leetcode.com/sai14karthik}{\textcolor{darkblue}{sai14karthik}}
+  \item \textbf{GeeksforGeeks:} \href{https://auth.geeksforgeeks.org/user/sai14karthik}{\textcolor{darkblue}{sai14karthik}}
+\end{itemize}
+}
+
+
+\section{\textbf{References}}
+\vspace{-0.2mm}
+\small{
+\begin{enumerate}[leftmargin=*,labelsep=2mm]
+\item \textbf{Dr. Tapas Kumar Mishra}\\
+   Assistant Professor, Department of Computer Science and Engineering\\
+   SRM University – AP\\
+   Email: tapas.mishra@srmap.edu.in\\
+   \textit{Relationship: Thesis Advisor and Research Guide}
+
+\item \textbf{Prof. Nitul Dutta}\\
+   Professor, Department of Computer Science and Engineering\\
+   SRM University – AP\\
+   Email: nitul.dutta@srmap.edu.in\\
+   \textit{Relationship: Project Supervisor and Academic Mentor}
+
+\item \textbf{Prof. George Ghinea}\\
+   Professor, Department of Computer Science\\
+   Brunel University London\\
+   Email: george.ghinea@brunel.ac.uk\\
+   \textit{Relationship: Research Collaborator and Mentor}
+
+\item \textbf{Dr. Satish Anamalamudi}\\
+   Associate Professor, Department of Computer Science and Engineering\\
+   SRM University – AP\\
+   Email: sathish.a@srmap.edu.in\\
+   \textit{Relationship: Research Collaborator and Guide}
+\end{enumerate}
+}
+
+
+\end{document}
