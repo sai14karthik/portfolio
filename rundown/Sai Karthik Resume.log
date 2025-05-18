@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  17 MAY 2025 21:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  18 MAY 2025 14:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -441,7 +441,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip87
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 46.
+Package hyperref Info: Option `colorlinks' set `true' on input line 44.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
@@ -806,40 +806,40 @@ Package nfssext-cfr Warning: Patching font initialisation macro for typewriter. 
 ) (./Sai Karthik Resume.aux)
 \openout1 = `"Sai Karthik Resume.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/lmm/m/it on input line 150.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 150.
+LaTeX Font Info:    Checking defaults for OML/lmm/m/it on input line 148.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 148.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OMS/lmsy/m/n on input line 150.
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 150.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMS/lmsy/m/n on input line 148.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 148.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OT1/lmr/m/n on input line 150.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 150.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OT1/lmr/m/n on input line 148.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 148.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for OMX/lmex/m/n on input line 150.
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 150.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMX/lmex/m/n on input line 148.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 148.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 150.
-LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count354
@@ -893,7 +893,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 150.
+Package hyperref Info: Link coloring ON on input line 148.
 (./Sai Karthik Resume.out) (./Sai Karthik Resume.out)
 \@outlinefile=\write4
 \openout4 = `"Sai Karthik Resume.out"'.
@@ -904,51 +904,50 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks50
 \inpenc@posthook=\toks51
 )
-LaTeX Info: Redefining \swshape on input line 150.
+LaTeX Info: Redefining \swshape on input line 148.
 
 
-Package nfssext-cfr Warning: Overwriting kernel definition of \swshape  (new) on input line 150.
+Package nfssext-cfr Warning: Overwriting kernel definition of \swshape  (new) on input line 148.
 
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 151.
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 149.
 (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 161.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 159.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 161.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 159.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 162.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 160.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 162.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 160.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 172.
+(Font)              <10.95> on input line 170.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 172.
+(Font)              <8> on input line 170.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 172.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 172.
+(Font)              <6> on input line 170.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 170.
  (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 172.
+(Font)              <5> on input line 170.
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 247.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 275.
-
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 245.
 
 
 [1
 
 {/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hfill' on input line 273.
+
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 298.
+(Font)              <10> on input line 296.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 298.
+(Font)              <7> on input line 296.
 
 
 [2] (./Sai Karthik Resume.aux)
@@ -957,18 +956,18 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `"Sai Karthik Resume".out' has not changed.
-(rerunfilecheck)             Checksum: 49889C3A6CD74F171F984D3489369D69;1345.
+(rerunfilecheck)             Checksum: FD8C200CAAE1EAD12EB6A362126F9EFC;1375.
  ) 
 Here is how much of TeX's memory you used:
- 33155 strings out of 473190
- 679963 string characters out of 5704335
+ 33157 strings out of 473190
+ 679988 string characters out of 5704335
  1173212 words of memory out of 5000000
- 55828 multiletter control sequences out of 15000+600000
- 615555 words of font info for 98 fonts, out of 8000000 for 9000
+ 55829 multiletter control sequences out of 15000+600000
+ 618721 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,106p,1303b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,106p,1303b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "Sai Karthik Resume.pdf" (2 pages, 101696 bytes).
+Output written on "Sai Karthik Resume.pdf" (2 pages, 101730 bytes).
 PDF statistics:
  152 PDF objects out of 1000 (max. 8388607)
  109 compressed objects within 2 object streams
