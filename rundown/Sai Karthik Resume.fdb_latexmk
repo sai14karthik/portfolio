@@ -1,8 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1747558876.09099 "/Users/saikarthik/Desktop/portfolio/rundown/Sai Karthik Resume.tex" "Sai Karthik Resume.pdf" "Sai Karthik Resume" 1747558877.02717 0
-  "/Users/saikarthik/Desktop/portfolio/rundown/Sai Karthik Resume.tex" 1747558875.90131 16871 3ab9c3758cd064bb4b9cf021f442e226 ""
+["pdflatex"] 1749390623.46442 "/Users/saikarthik/Desktop/portfolio/rundown/Sai Karthik Resume.tex" "Sai Karthik Resume.pdf" "Sai Karthik Resume" 1749390624.41071 0
+  "/Users/saikarthik/Desktop/portfolio/rundown/Sai Karthik Resume.tex" 1749390622.32869 16664 0379b4dc608fb326df6aabfd92522f95 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1741388039 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1741388039 2920 d63721872b8c77041b88e51b8f7c291d ""
+  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc" 1741388039 3083 a707712f77b073b3833e4b1334a30e99 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1741388039 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1741388039 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1741388039 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -18,9 +19,9 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplri8t.tfm" 1741388039 3684 929c666381f7272e81481908b735ccba ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1741388039 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cfr-lm/clmr2j8t10.tfm" 1741388039 12748 c45ca9bac8e29a65384a9d884d7c129f ""
-  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cfr-lm/clmr2j8t12.tfm" 1741388039 12760 1bea3f70d37912f83f6e04fadd25c5c0 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1741388039 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands0.tfm" 1741388039 1380 a61d7c2860b3f6d342213a6b9b229e9e ""
+  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free0solid.tfm" 1741388039 1328 8843c76048ec1e1c4b2d1007558b8833 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm" 1741388039 1316 1c2ee668ea88be9bd4f39690662cc344 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free2solid.tfm" 1741388039 1340 b21002f38a477f345fa9dc96a5613e2b ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm" 1741388039 520 82a3d37183f34b6eb363a161dfc002c2 ""
@@ -150,6 +151,7 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def" 1741388039 107808 07e47606922c76b1824e149c54155c4c ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty" 1741388039 8112 16dbb19fca3f2df864fea49874356f35 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd" 1741388039 1206 b35c804e364d46e802702be118632c48 ""
+  "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd" 1741388039 980 f00df3fe21ca0934b441dacef142037f ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd" 1741388039 980 1b42613a5245ed252c04030af746d737 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd" 1741388039 980 38ce61da47d1ba16e56a2e312b56a515 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/geometry/geometry.sty" 1741388039 41601 9cf6c5257b1bc7af01a58859749dd37a ""
@@ -236,9 +238,9 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1741388039 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346141 1288109d02d1c772df65535881471649 ""
-  "Sai Karthik Resume.aux" 1747558876.93706 1368 fc7a06c5655e6e88f94136a2ffc173e4 "pdflatex"
-  "Sai Karthik Resume.out" 1747558876.93781 1375 fd8c200caae1ead12eb6a362126f9efc "pdflatex"
-  "Sai Karthik Resume.tex" 1747558875.90131 16871 3ab9c3758cd064bb4b9cf021f442e226 ""
+  "Sai Karthik Resume.aux" 1749390624.32022 1368 fc7a06c5655e6e88f94136a2ffc173e4 "pdflatex"
+  "Sai Karthik Resume.out" 1749390624.321 1375 fd8c200caae1ead12eb6a362126f9efc "pdflatex"
+  "Sai Karthik Resume.tex" 1749390622.32869 16664 0379b4dc608fb326df6aabfd92522f95 ""
   (generated)
   "Sai Karthik Resume.aux"
   "Sai Karthik Resume.log"
