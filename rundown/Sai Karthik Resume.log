@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  8 JUN 2025 19:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  16 SEP 2025 21:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -934,45 +934,43 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 170.
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 249.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 267.
-
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 251.
 
 
 [1
 
 {/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 290.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 290.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 437.
- (/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
 
-[2{/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}] (./Sai Karthik Resume.aux)
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hfill' on input line 270.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 293.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 293.
+
+
+[2] (./Sai Karthik Resume.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `"Sai Karthik Resume".out' has not changed.
-(rerunfilecheck)             Checksum: FD8C200CAAE1EAD12EB6A362126F9EFC;1375.
+(rerunfilecheck)             Checksum: D33869B144BD055F806D0CEC7717D707;1249.
  ) 
 Here is how much of TeX's memory you used:
- 33175 strings out of 473190
- 680565 string characters out of 5704335
+ 33153 strings out of 473190
+ 679944 string characters out of 5704335
  1171212 words of memory out of 5000000
- 55842 multiletter control sequences out of 15000+600000
- 616519 words of font info for 100 fonts, out of 8000000 for 9000
+ 55827 multiletter control sequences out of 15000+600000
+ 616211 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,106p,1303b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,106p,1303b,678s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "Sai Karthik Resume.pdf" (2 pages, 125437 bytes).
+Output written on "Sai Karthik Resume.pdf" (2 pages, 101679 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 16 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 142 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

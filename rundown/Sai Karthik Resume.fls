@@ -389,10 +389,6 @@ INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/p
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplri8t.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5brands0.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplrc8t.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplri8t.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cfr-lm/clmr2j8t10.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map
@@ -417,6 +413,9 @@ INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/p
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/vf/adobe/palatino/pplri8t.vf
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplrc8t.tfm
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplri8t.tfm
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplrc8t.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/lm/lmmi10.tfm
@@ -425,10 +424,7 @@ INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/fontawesome5/fa5free0solid.tfm
+INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/cfr-lm/clmr2j8t10.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/vf/adobe/palatino/pplrc8t.vf
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
@@ -436,7 +432,6 @@ INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/vf/adobe/pa
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/vf/adobe/palatino/pplri8t.vf
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
-INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc
 INPUT Sai Karthik Resume.aux
 INPUT ./Sai Karthik Resume.out
 INPUT ./Sai Karthik Resume.out
